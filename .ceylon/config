@@ -1,0 +1,11 @@
+
+[compiler]
+source=source
+resource=resource
+
+[defaults]
+encoding=UTF-8
+flatclasspath=false
+
+[repositories]
+remote=aether
