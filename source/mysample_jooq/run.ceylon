@@ -44,7 +44,7 @@ shared void runQueryWithJoin() {
 	value rows = 
 			dsl.select(pessoa.nome, dependente.nome)
 			.from(pessoa)
-			.join(dependente).on(pessoa.id.eq(dependente.id))
+			.join(dependente).on(pessoa.id.eq(dependente.idPessoa))
 			.where(pessoa.nome.startsWith("Diego"));
 	
 	for (row in rows) {
