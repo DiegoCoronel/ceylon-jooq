@@ -1,6 +1,7 @@
 # JOOQ - Ceylon
 
-This project is just to show [ceylon](http://ceylon-lang.org/) and [jooq](http://www.jooq.org/) integration.
+This project is just to show [ceylon](http://ceylon-lang.org/) and [jooq](http://www.jooq.org/) integration. It was deeply guided by @bjansen [blog](http://bjansen.github.io/ceylon/2015/08/24/ceylon-plus-jooq-equals-heart.html). 
+ 
 
 The architecture was divided:
 - jooq_metadata: This is where all jooq generated lives, also, the [run](https://github.com/DiegoCoronel/ceylon-jooq/blob/master/source/jooq_metadata/run.ceylon) function to generate it.
